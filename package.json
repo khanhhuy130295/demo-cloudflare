@@ -1,7 +1,10 @@
 {
   "name": "base",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "engines": {
+    "node": ">=12.22.0 <17.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
