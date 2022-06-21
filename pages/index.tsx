@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <>
     <h1>Test Content ABC</h1>
-    {/* <Image src={"/No-data-illustration.png"}  height={500} width={500} alt="img-demo"/> */}
+    <img  src={"/images/No-data-illustration.png"} width={500} height={500} alt="img-demo"/>
     </>
   )
 }
